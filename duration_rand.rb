@@ -4,12 +4,12 @@ require 'chronic_duration'
 
 case ARGV.count
   when 0..1
-    STDERR.puts 'Usage: duration_rand <minimum> <maximum>'
+    abort 'Usage: duration_rand <minimum> <maximum>'
   when 2
     from = ARGV[0]
     to = ARGV[1]
   else
-    STDERR.puts 'Too many arguments, expected 2, got %d' % [ARGV.count]
+    abort 'Too many arguments, expected 2, got %d' % [ARGV.count]
 end
 
 from = ChronicDuration.parse from
