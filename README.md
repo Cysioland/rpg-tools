@@ -8,12 +8,16 @@ This software is provided with absolutely NO WARRANTY. I probably won't support 
 
 ### duration_rand.rb
 This is a tool, that allows you to randomly generate, when will an action happen. It takes two parameters, all in format like `1h10m30s`:
-* **minimum** — at least this amount of time needs to pass
-* **maximum** — at most this amount of time can pass
+* **minimum** — at least this amount of time needs to pass.
+* **maximum** — at most this amount of time can pass.
 
 ### dice.rb
-This is a tool, that allows you to randomly throw die. By default it's a 1d6.
+This is a tool, that allows you to throw die. By default it's a 1d6.
 * **dice type** — in the classic <amount>d<faces> format, ie. 3d6, 2d10.
+
+### coin.rb
+This is a tool, that allows you to toss coins.
+* **coin amount** — how many coins will we throw.
 
 ## Contributing
 
