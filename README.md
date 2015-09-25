@@ -11,6 +11,10 @@ This is a tool, that allows you to randomly generate, when will an action happen
 * **minimum** — at least this amount of time needs to pass
 * **maximum** — at most this amount of time can pass
 
+### dice.rb
+This is a tool, that allows you to randomly throw die. By default it's a 1d6.
+* **dice type** — in the classic <amount>d<faces> format, ie. 3d6, 2d10.
+
 ## Contributing
 
 Just drop me a pull request. If I decide, that it's good, I'll merge it.
