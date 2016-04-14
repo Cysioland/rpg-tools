@@ -17,7 +17,12 @@ This is a tool, that allows you to throw die. By default it's a 1d6.
 
 ### coin.rb
 This is a tool, that allows you to toss coins.
-* **coin amount** — how many coins will we throw.
+* **coin amount** — how many coins will we throw
+
+### choice.rb
+This is a tool, that allows you to randomly pick elements from a list given in parameters.
+* **element 1** — first element of the list
+* **element N** — N-th element of the list *(optional)*
 
 ## Contributing
 
